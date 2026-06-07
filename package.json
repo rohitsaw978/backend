@@ -1,19 +1,24 @@
 {
-  "name": "y",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "starting app",
+  "description": "a backend",
   "keywords": [
-    "node"
+    "javascript",
+    "backend"
   ],
+  "homepage": "https://github.com/rohitsaw978/backend#readme",
+  "bugs": {
+    "url": "https://github.com/rohitsaw978/backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohitsaw978/backend.git"
+  },
   "license": "ISC",
-  "author": "rohit saw",
+  "author": "rohit kumar saw",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
